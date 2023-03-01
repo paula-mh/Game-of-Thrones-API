@@ -1,0 +1,246 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************************************************************/
+
+/* Tipografías */
+@font-face {
+    font-family: 'Cinzel Decorative';
+	src: url('fonts/CinzelDecorative-Bold.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative';
+	src: url('fonts/CinzelDecorative-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative';
+	src: url('fonts/CinzelDecorative-Black.ttf');
+	font-weight: bolder;
+}
+
+.u{
+	font-weight: bold;
+}
+
+
+/* Index */
+header {
+	margin-top: 50px;
+	text-align:center;
+}
+
+#logo{
+	background-attachment: fixed;
+	margin:0px auto;
+	padding-bottom: 50px;
+}
+
+body{
+	display: block;
+	font-family: 'Cinzel Decorative', cursive;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: cover !important;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#characters{
+	align-items: center ;
+	margin: 0 auto;
+
+}
+
+.aCharacter{
+	width: 200px;
+	height: 300px;
+	align-items: center;
+	float: left;
+	margin: 50px 60px;
+	border: 5px double #535353;
+	background-color:  #ebf5fb;
+  }
+
+  input{
+	display: inline-block;
+	padding: 0.85em 1.5em;
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #102e55;
+	border: none;
+	border-radius: 20px;
+	margin-bottom: 10px;
+  }
+
+.aCharacter input{
+	margin-left: 20%;
+  }
+
+  input:hover{
+	background-color:#535353;
+  }
+
+  .fullName {
+	text-align: center;
+	font-size: 25px;
+	color: #6f1332;
+	padding: 15px;
+  }
+
+  .aCharacter img{
+	height: 160px;
+	object-fit: cover;
+	width: 200px;
+  }
+
+  /* Characters */
+
+  #name{
+	padding-top: 15px;
+  }
+
+  #name p{
+	color: #ffffff;
+	font-size: 30px;
+  }
+
+  #title p{
+	color: #ffffff;
+	font-size: 20px;
+  }
+
+  #family p{
+	color: #ffffff;
+	font-size: 20px;
+  }
+
+  .caja-vacia{
+	height: 120px;
+  }
+
+  .file{
+	height: 310px;
+	width: 1000px;
+	background: rgb(2,0,36, 0.9);
+	margin: 0 auto;
+  }
+  
+  .picture{
+	float: left;
+	padding: 50px 50px 50px 50px;
+
+  }
+
+  .picture img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	
+  }
+
+  .data{
+	padding-top: 50px;
+	float: left;
+  }
+
+  nav{
+	justify-content: center;
+	margin: 0 auto;
+	text-align:center;
+  }
+  nav ul{
+	background: rgb(2,0,36, 0.9);
+	list-style:none;
+	display: inline-flex;
+	padding-bottom: 40px;
+  }
+  
+  li input{
+	margin-left: 203px;
+	margin-right: 203px;
+	float: left;
+  }
+
+  h1{
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: bold;
+	padding-top: 60px;
+	padding-left: 60px;
+	color: #ffffff;
+	font-size: 60px;
+  }
+
+/* Quotes */  
+
+  #nov{
+	color: rgb(2,0,36, 0.0);
+  }
+
+  #quote p{
+	font-style: italic;
+	font-size: 30px;
+	font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+	color: #ffffff;
+  }
+
+  #author p{
+	padding-bottom: 50px;
+	padding-top: 25px;
+	font-style: italic;
+	font-size: 20px;
+	font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+	color: #ffffff;
+  }
+
+  .frase{
+	padding: 100px 300px 100px 300px;
+	background: rgb(2,0,36, 0.7);
+  }
